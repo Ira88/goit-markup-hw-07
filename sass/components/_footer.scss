@@ -1,0 +1,197 @@
+.footer{
+    background-color: #2F303A;
+    margin: auto;
+    padding: 60px;
+    max-width: 1600px;
+  }
+  
+  .logo-container{
+    width: 145px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-list{
+    margin-top: 20px;
+  }
+  .footer-contactcs{
+    width: 231px;
+    height: 81px;
+  }
+  .footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .footer-adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+  .footer-item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+  .current-footer{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 9px;
+  }
+  .current-footer:hover,.current-footer:focus{
+    color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  } 
+  .footer-wrapper{
+    display: flex;
+  }
+  .social-footer{
+    width: 206px;
+    height: 80px;
+   margin-left: 70px;
+  } 
+  .footer-social{
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  }
+  .footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .svg-social{
+    width: 20px;
+  }
+  .social-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .footer-social-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    fill: #fff;
+  }
+  .footer-social-link:hover,
+  .footer-social-link:focus{
+    background-color: #2196F3;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .booking{
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+  }
+  .booking-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }  
+  .footer-form{
+    display: flex;
+    column-gap: 12px;
+  }
+  .footer-form input{
+    border: none;
+    background: none;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 12px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width:358px;
+    height: 50px;
+  }
+  .footer-btn{
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #2196F3;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  }
+  .svg-booking{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  .text-mail input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .text-mail input :focus{
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .text-mail ::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
