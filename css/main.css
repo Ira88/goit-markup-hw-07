@@ -289,7 +289,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   background-position: center;
   background-size: cover;
 }
-
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -303,7 +302,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: auto;
   margin-bottom: 30px;
 }
-
 .hero-btn {
   font-family: "Roboto";
   font-style: normal;
@@ -338,9 +336,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   border: none;
   border-radius: 4px;
 }
-
-.link-current-hero:hover,
-.link-current-hero:focus {
+.link-current-hero:hover, .link-current-hero:focus {
   color: #FFFFFF;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -352,8 +348,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   color: var(--primary-text-color);
   padding-bottom: 94px;
 }
-
-.port-list {
+.port-btn-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,9 +372,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   cursor: pointer;
   padding: 6px 22px;
 }
-
-.link-current-port:hover,
-.link-current-port:focus {
+.link-current-port:hover, .link-current-port:focus {
   color: #FFFFFF;
   background-color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -836,30 +829,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
   padding: 60px;
   max-width: 1600px;
 }
-
-.logo-container {
-  width: 145px;
-  height: 31px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .footer-list {
   margin-top: 20px;
 }
-
 .footer-contactcs {
   width: 231px;
   height: 81px;
 }
-
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -870,7 +846,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   color: #FFFFFF;
   text-decoration: none;
 }
-
 .footer-adress {
   font-family: "Roboto";
   font-style: normal;
@@ -880,7 +855,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
 .footer-item {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -890,63 +864,42 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
-.current-footer {
-  color: #fff;
-  text-decoration: none;
-  padding-top: 9px;
-}
-
-.current-footer:hover, .current-footer:focus {
-  color: #2196F3;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .footer-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-.social-footer {
+.footer-social {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.footer-social-footer {
   width: 206px;
   height: 80px;
   margin-left: 70px;
 }
-
-.footer-social {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
-
-.footer-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-}
-
-.svg-social {
-  width: 20px;
-}
-
-.social-item {
+.footer-social-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -962,49 +915,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   width: 44px;
   height: 44px;
 }
-
-.footer-social-link {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  fill: #fff;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: #2196F3;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.booking {
-  width: 570px;
-  height: 86px;
-  margin-left: 93px;
-}
-
-.booking-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
-
 .footer-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1013,7 +923,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
      -moz-column-gap: 12px;
           column-gap: 12px;
 }
-
 .footer-form input {
   border: none;
   background: none;
@@ -1029,7 +938,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   width: 358px;
   height: 50px;
 }
-
 .footer-btn {
   font-family: "Roboto";
   font-style: normal;
@@ -1053,6 +961,74 @@ h1, h2, h3, h4, h5, h6, p, ul {
           justify-content: center;
 }
 
+.logo-container {
+  width: 145px;
+  height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.current-footer {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 9px;
+}
+.current-footer:hover, .current-footer:focus {
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-social {
+  width: 20px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #fff;
+}
+.footer-social-link:hover, .footer-social-link:focus {
+  background-color: #2196F3;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.booking {
+  width: 570px;
+  height: 86px;
+  margin-left: 93px;
+}
+.booking-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
 .svg-booking {
   width: 24px;
   height: 24px;
@@ -1067,7 +1043,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   line-height: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .text-mail input :focus {
   font-family: "Roboto";
   font-style: normal;
@@ -1163,6 +1138,44 @@ h1, h2, h3, h4, h5, h6, p, ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-titel {
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
+.modal-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: #fff;
+  padding: 10px 52px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 116px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 
 .close-button {
   position: absolute;
@@ -1182,24 +1195,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
   display: -ms-flexbox;
   display: flex;
 }
-
-.close-button :hover,
-.close-button :focus {
+.close-button :hover, .close-button :focus {
   fill: #2196F3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-titel {
-  font-family: "Roboto";
-  font-style: normal;
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 12px;
 }
 
 .form-element {
@@ -1212,20 +1211,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
           flex-direction: column;
   margin-top: 12px;
 }
-
 .form-element label {
   margin-top: 10px;
   margin-bottom: 4px;
 }
-
-.label {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: #757575;
-}
-
 .form-element input {
   border: none;
   height: 40px;
@@ -1237,11 +1226,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   outline: none;
   width: 100%;
 }
-
-.input-wrapper {
-  position: relative;
-}
-
 .form-element svg {
   position: absolute;
   top: 50%;
@@ -1249,23 +1233,32 @@ h1, h2, h3, h4, h5, h6, p, ul {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
-.svg-form {
+.form-element svg-form {
   width: 18px;
   height: 18px;
   fill: #212121;
 }
-
 .form-element :focus-within input {
   border: 1px solid #2196F3;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-element :focus-within input + svg {
   fill: #2196F3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.input-wrapper {
+  position: relative;
 }
 
 .coment {
@@ -1279,7 +1272,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   padding: 12px 16px;
   cursor: pointer;
 }
-
 .coment ::-webkit-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1289,7 +1281,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .coment ::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1299,7 +1290,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .coment :-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1309,7 +1299,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .coment ::-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1319,7 +1308,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .coment ::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1337,16 +1325,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
-}
-
-.topic-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -1390,7 +1368,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
+.topic-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .topic input:checked + .checkbox {
   background-color: #2196F3;
   border: 2px solid #2196F3;
@@ -1410,32 +1396,4 @@ h1, h2, h3, h4, h5, h6, p, ul {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
-}
-
-.modal-btn {
-  width: 200px;
-  height: 50px;
-  border: none;
-  border-radius: 4px;
-  background-color: #2196F3;
-  color: #fff;
-  padding: 10px 52px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  margin-top: 30px;
-  margin-left: 116px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
 }/*# sourceMappingURL=main.css.map */
