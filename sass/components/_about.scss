@@ -47,12 +47,11 @@
         line-height: 19px;
         letter-spacing: 0.03em;
         color: #212121;
-
-        &-item{
-          position: relative;
-           }
       }
     }
+    .about-item-item{
+      position: relative;
+       }
     .conteiner-wrapper .container{
       width: 270px;
       min-height: 70px;
