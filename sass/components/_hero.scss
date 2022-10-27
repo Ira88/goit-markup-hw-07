@@ -74,17 +74,15 @@ border-radius: 4px;
   }
   }
 
-
-  
-  .port-btn{
-    color:  var(--primary-text-color);
-  padding-bottom: 94px;
-
-  &-list{
+  .port-list{
     display: flex;
   column-gap: 8px;
   margin-left: 400px;
   padding-top: 94px;
+  
+  &-btn{
+    color:  var(--primary-text-color);
+  padding-bottom: 94px;
   }
   }
  
@@ -100,8 +98,7 @@ border-radius: 4px;
    border:none ;
    cursor: pointer;
    padding: 6px 22px;
-   
-
+  
    &:hover, 
    &:focus{
      color: #FFFFFF;
