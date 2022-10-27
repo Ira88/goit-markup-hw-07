@@ -265,13 +265,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   color: #2196F3;
 }
 
-.hero .container {
-  text-align: center;
-  padding: 200px 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .hero {
   background-color: #2F303A;
   max-width: 1600px;
@@ -284,7 +277,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
   background-position: center;
   background-size: cover;
 }
-.hero-title {
+.hero .container {
+  text-align: center;
+  padding: 200px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero_title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -297,7 +296,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: auto;
   margin-bottom: 30px;
 }
-.hero-btn {
+.hero_btn {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -316,8 +315,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin-top: 30px;
   cursor: pointer;
 }
-
-.link-current-hero {
+.hero_link-current {
   color: #fff;
   font-family: "Roboto";
   font-style: normal;
@@ -331,7 +329,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   border: none;
   border-radius: 4px;
 }
-.link-current-hero:hover, .link-current-hero:focus {
+.hero_link-current:hover, .hero_link-current:focus {
   color: #FFFFFF;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -339,7 +337,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port-list {
+.port_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,12 +347,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin-left: 400px;
   padding-top: 94px;
 }
-.port-list-btn {
+.port_list_btn {
   color: var(--primary-text-color);
   padding-bottom: 94px;
 }
 
-.link-current-port {
+.port_link-current {
   color: #212121;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -367,7 +365,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   cursor: pointer;
   padding: 6px 22px;
 }
-.link-current-port:hover, .link-current-port:focus {
+.port_link-current:hover, .port_link-current:focus {
   color: #FFFFFF;
   background-color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
