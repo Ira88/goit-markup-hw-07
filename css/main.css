@@ -161,15 +161,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.header-link-current {
-  color: #212121;
-  text-decoration: none;
-}
-.header-link-current:hover, .header-link-current:focus {
-  color: #2196F3;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .flex-container {
   display: -webkit-box;
@@ -186,11 +177,32 @@ h1, h2, h3, h4, h5, h6, p, ul {
   fill: #757575;
   margin-right: 10px;
 }
-.icon-smartphone-envelope {
+
+.icon-envelope {
   width: 16px;
   height: 12px;
   fill: #757575;
   margin-right: 10px;
+}
+
+.link-current {
+  color: #212121;
+  text-decoration: none;
+}
+.link-current:hover, .link-current:focus {
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-current {
+  display: block;
+  padding: 32px 0;
+}
+.link-current.active {
+  position: relative;
+}
+.link-current.action {
+  position: relative;
 }
 
 .contakt-current {
@@ -198,28 +210,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
   text-decoration: none;
   padding: 32px 0;
 }
-
-.contakt-current:hover:hover,
-.contakt-current:focus {
+.contakt-current:hover:hover, .contakt-current:focus {
   color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contakt-current:hover svg,
-.contakt-current:focus svg {
+.contakt-current:hover svg, .contakt-current:focus svg {
   fill: #2196F3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-current {
-  display: block;
-  padding: 32px 0;
-}
-
-.link-current.active {
-  position: relative;
 }
 
 .page::after {
@@ -231,10 +230,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   background-color: #2196F3;
   border-radius: 2px;
   bottom: 0;
-}
-
-.link-current.action {
-  position: relative;
 }
 
 .klik::after {
@@ -1149,33 +1144,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   color: #212121;
   margin-bottom: 12px;
 }
-.modal-btn {
-  width: 200px;
-  height: 50px;
-  border: none;
-  border-radius: 4px;
-  background-color: #2196F3;
-  color: #fff;
-  padding: 10px 52px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  margin-top: 30px;
-  margin-left: 116px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
 
 .close-button {
   position: absolute;
@@ -1233,11 +1201,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-.form-element svg-form {
-  width: 18px;
-  height: 18px;
-  fill: #212121;
-}
 .form-element :focus-within input {
   border: 1px solid #2196F3;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1261,6 +1224,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
   position: relative;
 }
 
+.svg-form {
+  width: 18px;
+  height: 18px;
+  fill: #212121;
+}
+
 .coment {
   width: 448px;
   height: 120px;
@@ -1272,6 +1241,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   padding: 12px 16px;
   cursor: pointer;
 }
+
 .coment ::-webkit-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1281,6 +1251,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .coment ::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1290,6 +1261,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .coment :-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1299,6 +1271,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .coment ::-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1308,6 +1281,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 .coment ::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -1325,6 +1299,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.topic-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -1368,15 +1352,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.topic-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
+
 .topic input:checked + .checkbox {
   background-color: #2196F3;
   border: 2px solid #2196F3;
@@ -1396,4 +1372,32 @@ h1, h2, h3, h4, h5, h6, p, ul {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
+}
+
+.modal-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: #fff;
+  padding: 10px 52px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 116px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }/*# sourceMappingURL=main.css.map */
