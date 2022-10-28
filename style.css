@@ -192,7 +192,7 @@ color: #212121;
   text-decoration: none;
   padding: 32px 0;
   } 
-  .contakt-current:hover:hover, 
+  .contakt-current:hover, 
   .contakt-current:focus{
     color: #2196F3;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
