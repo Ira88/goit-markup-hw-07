@@ -977,6 +977,22 @@ h1, h2, h3, h4, h5, h6, p, ul {
   text-decoration: none;
   padding-top: 9px;
 }
+.current-footer-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  padding-top: 9px;
+}
+.current-footer-contact:hover, .current-footer-contact:focus {
+  color: #2196F3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .current-footer:hover, .current-footer:focus {
   color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
