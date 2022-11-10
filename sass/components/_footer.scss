@@ -7,10 +7,7 @@
     &-list{
         margin-top: 20px;
       }
-      &-contactcs{
-        width: 231px;
-        height: 81px;
-      }
+     
       &-logo{
         font-family: 'Raleway';
         font-style: normal;
@@ -43,6 +40,7 @@
       &-wrapper{
         display: flex;
         justify-content: center;
+        align-items: baseline;
       }
       &-social{
         font-family: 'Roboto';
