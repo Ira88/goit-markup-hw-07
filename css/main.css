@@ -813,7 +813,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .svg-client {
   width: 106px;
   height: 60px;
-  fill: #757575;
+  fill: #AFB1B8;
 }
 
 .footer {
@@ -887,27 +887,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
      -moz-column-gap: 10px;
           column-gap: 10px;
 }
-.footer-social-footer {
-  width: 206px;
-  height: 80px;
-  margin-left: 70px;
-}
-.footer-social-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-  width: 44px;
-  height: 44px;
-}
 .footer-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -952,6 +931,28 @@ h1, h2, h3, h4, h5, h6, p, ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.social-footer {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+.social-footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  width: 44px;
+  height: 44px;
 }
 
 .logo-container {
