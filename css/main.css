@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
      -moz-column-gap: 93px;
           column-gap: 93px;
 }
-.navigation_list {
+.navigation__list {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
           column-gap: 50px;
   width: 286px;
 }
-.navigation_item {
+.navigation__item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   text-decoration: none;
   color: #212121;
 }
-.navigation_link {
+.navigation__link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -162,24 +162,24 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.navigation_link-current {
+.navigation__link-current {
   color: #212121;
   text-decoration: none;
 }
-.navigation_link-current:hover, .navigation_link-current:focus {
+.navigation__link-current:hover, .navigation__link-current:focus {
   color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation_link-current {
+.navigation__link-current {
   display: block;
   padding: 32px 0;
 }
-.navigation_link-current.active {
+.navigation__link-current.active {
   position: relative;
   color: #2196F3;
 }
-.navigation_link-current.action {
+.navigation__link-current.action {
   position: relative;
   color: #2196F3;
 }
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   bottom: 0;
 }
 
-.navigation_logo {
+.navigation__logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin-left: auto;
   margin-right: auto;
 }
-.hero_title {
+.hero__title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: auto;
   margin-bottom: 30px;
 }
-.hero_btn {
+.hero__btn {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin-top: 30px;
   cursor: pointer;
 }
-.hero_link-current {
+.hero__link-current {
   color: #fff;
   font-family: "Roboto";
   font-style: normal;
@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   height: 50px;
   padding: 10px 32px;
 }
-.hero_link-current:hover, .hero_link-current:focus {
+.hero__link-current:hover, .hero__link-current:focus {
   color: #FFFFFF;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.port_list {
+.port__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,12 +364,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
           column-gap: 8px;
   padding-top: 94px;
 }
-.port_list_btn {
+.port__list__btn {
   color: var(--primary-text-color);
   padding-bottom: 94px;
 }
 
-.port_link-current {
+.port__link-current {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   cursor: pointer;
   padding: 6px 22px;
 }
-.port_link-current:hover, .port_link-current:focus {
+.port__link-current:hover, .port__link-current:focus {
   color: #FFFFFF;
   background-color: #2196F3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);

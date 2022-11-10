@@ -20,7 +20,7 @@ margin-left: auto;
 margin-right: auto;
 
   }
-  &_title{
+  &__title{
     font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -34,7 +34,7 @@ margin-right: auto;
   margin-bottom: 30px;
   }
 
-  &_btn{
+  &__btn{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -51,7 +51,7 @@ margin-right: auto;
   margin-top: 30px;
   cursor: pointer;
   }
-  &_link-current{
+  &__link-current{
     color: #fff;
     font-family: 'Roboto';
   font-style: normal;
@@ -76,19 +76,19 @@ margin-right: auto;
   }
 
 
-  .port_list{
+  .port__list{
     display: flex;
     justify-content: center;
   column-gap: 8px;
   padding-top: 94px;
   
-  &_btn{
+  &__btn{
     color:  var(--primary-text-color);
   padding-bottom: 94px;
   }
   }
  
-  .port_link-current{
+  .port__link-current{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
