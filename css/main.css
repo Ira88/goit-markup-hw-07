@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   border-bottom: 1px solid #ECECEC;
   height: 80px;
 }
-
 .header-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,7 +110,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
           align-items: center;
   padding: 0;
 }
-.header-contacts-contact {
+.header-contact {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -178,9 +177,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .navigation_link-current.active {
   position: relative;
+  color: #2196F3;
 }
 .navigation_link-current.action {
   position: relative;
+  color: #2196F3;
 }
 
 .flex-container {
@@ -207,9 +208,21 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .contakt-current {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
   padding: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contakt-current:hover, .contakt-current:focus {
   color: #2196F3;
